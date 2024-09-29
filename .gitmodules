@@ -1,0 +1,3 @@
+[submodule "outline-icons"]
+	path = outline-icons
+	url = https://github.com/outline/outline-icons.git
