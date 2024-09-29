@@ -16,7 +16,7 @@ class OutlineIconsServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/../resources/views/components/icons' => resource_path('views/components/icons'),
-        ], 'icons');
+            __DIR__ . '/../resources/views/components/outline' => resource_path('views/components/icons'),
+        ], 'outline');
     }
 }
